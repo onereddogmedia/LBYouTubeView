@@ -7,13 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "LBYouTube.h"
 
-@class LBViewController;
-
-@interface LBAppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
-
-@property (strong, nonatomic) LBViewController *viewController;
+@interface LBAppDelegate : UIResponder <UIApplicationDelegate, LBYouTubePlayerControllerDelegate>
 
 @end
